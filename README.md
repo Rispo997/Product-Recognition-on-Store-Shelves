@@ -5,18 +5,18 @@
 
 * This repository implements two object detection algorithms based on SIFT 
 
-### Requirements ###
+### Package equirements ###
 
-* Python 3
-* Numpy
-* OpenCV 
-
+`Python version 3.9`    
+`opencv-contrib version 4.4.0.44` 
+`jupyter version 4.6`    
+`numpy version 1.22.1`  
 
 
 ### Overview ###
- * A project about object detection techniques based on computer vision.
- * The algorithm can be deployed to identify query images contained inside a scene, the provided example shows an use case of product recognition on store shelves.
- * In order to work properly, the algorithm needs two inputs:
+ A project about object detection techniques based on computer vision.
+ The algorithm can be deployed to identify query images contained inside a scene, the provided example shows an use case of product recognition on store shelves.
+ In order to work properly, the algorithm needs two inputs:
  * A scene image, containing the query(ies) to be found.
  * A query image, the image to be recognised.
 
