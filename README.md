@@ -12,11 +12,13 @@
 * OpenCV 
 
 
+
 ### Overview ###
  * A project about object detection techniques based on computer vision.
- * It can be deployed in supermarkets to recognize the on shelf products having two inputs:
-   1) images for the articles to be identified (indicated in the program as the query images);
-   2) images for the shelves to be inspected (train images).
+ * The algorithm can be deployed to identify query images contained inside a scene, the provided example shows an use case of product recognition on store shelves.
+ * In order to work properly, the algorithm needs two inputs:
+ * A scene image, containing the query(ies) to be found.
+ * A query image, the image to be recognised.
 
 
 ### Who do I talk to? ###
