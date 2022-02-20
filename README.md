@@ -25,9 +25,11 @@ The project deploys two different algorithms in order to achieve object detectio
 
 #### Mean-Shift clustering
 ![Alt text](https://i.imgur.com/6ubKSs1.gif)
+
 This version uses mean-shift clustering to partition the detected keypoints into different clusters, then, for each cluster, matching is computed separately.
 #### Generalized Hough Transform - Star Model
 ![Alt text](https://i.imgur.com/I34j2BE.gif)
+
 This version uses GHT along with SIFT features, each matched keypoint casts a vote for where the barycenter is, then the resulting grid is thresholded to find objects.
 
 ### Who do I talk to? ###
