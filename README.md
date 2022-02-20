@@ -20,6 +20,10 @@
  * A scene image, containing the query(ies) to be found.
  * A query image, the image to be recognised.
 
+### Functioning ###
+The project deploys two different algorithms in order to achieve object detection:
+#### Mean-Shift clustering
+#### Generalized Hough Transform - Star Model
 
 ### Who do I talk to? ###
 
